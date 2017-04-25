@@ -1,4 +1,7 @@
-# test coverage for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-contrib.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-contrib)
+# npmtest-grunt-contrib
+
+#### basic test coverage for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-contrib.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-contrib)
+
 #### The entire grunt-contrib suite.
 
 [![NPM](https://nodei.co/npm/grunt-contrib.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-contrib)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-contrib/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-contrib/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-contrib/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-contrib/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-contrib/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-contrib/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-contrib/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-contrib/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-contrib/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-contrib/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-contrib/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-contrib/build/coverage.html/index.html)
 
@@ -615,7 +618,8 @@
         "type": "git",
         "url": "git://github.com/gruntjs/grunt-contrib.git"
     },
-    "version": "0.11.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
